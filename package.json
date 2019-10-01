@@ -1,0 +1,10 @@
+{
+  "name": "denobook1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yamatatsu <the.kinnikuman@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
