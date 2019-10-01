@@ -1,5 +1,3 @@
-console.log("exec in this dir !!!");
-
 const { copy, stdout } = Deno;
 
 const enc = new TextEncoder();
