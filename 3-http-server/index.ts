@@ -26,6 +26,7 @@ async function http_server() {
 
   const requestLine = await readLine(bufReader)
   const [_, method, pathname, version] = requestLine.match(/^([^ ]+)? ([^ ]+?) ([^ ]+?)$/)
+  console.log({ _, method, pathname, version })
 
   let headerLine: string;
   const requestHeaders = new Headers()
